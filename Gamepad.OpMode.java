@@ -13,7 +13,7 @@ Public classs GamepadOpMode extends OpMode {
     public void loop () {
         telemetry.addData("Left stick x", gamepad.left_stick_x);
         telemetry.addData("Left stick y", gamepad.left_stick_y);
-        telemetry.addData("Anjali", "Mathews")
-        telemetry.addData("A button", gamepad1.a)
+        telemetry.addData("Anjali", "Mathews");
+        telemetry.addData("A button", gamepad1.a);
     }
 }
